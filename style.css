@@ -1,0 +1,109 @@
+body{
+    background: transparent;
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.header{
+    font-family: 'Russo One', sans-serif;
+}
+.firstsposter{
+    width: 100%;
+    height: 250px;
+}
+.firstsposter>img{
+    height:100%;
+    width: 100%;
+    align-self: center;  
+}
+.outline>p{
+    font-size:1.2rem;
+    
+}
+.vediosec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+video{
+    border-radius: 1rem;
+    background-color: black;  
+}
+.gallary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.gallary>div>a{
+    width: 280px;
+    height: 200px;
+}
+.gallaryimage{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    padding:10px;
+    text-align: center;   
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(#f2f, rgb(41, 9, 41));
+}
+.button>a{
+    text-decoration: none;
+    color: #fff;
+}
+.lastimg>img{
+    width: 280px;
+    height: 220px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.adlink{
+    width: 100%;
+    height: 60px;
+    background-color: #fcbe24;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 1rem;
+}
+.addlink2{
+    margin-top: 1rem;
+}
+.conclusion{
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid rgb(71, 69, 69);
+    margin: 10px;
+    font-size: .8rem;
+}
+.adlink>div>a{
+    color: green;
+}
+.back{
+    margin-top:1rem;
+}
+@media only screen and (max-width: 600px) {
+    .vediosec {
+      flex-direction: column;
+    }
+    video{
+        width: 280px;
+        height: 200px;
+    }
+  }
